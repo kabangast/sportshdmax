@@ -1,4 +1,8 @@
 {
+  "splash_screen": {
+    "image_url": "https://i.ibb.co/8Yzs4SW/splash.png",
+    "duration_seconds": 3
+  },
 "#home_url":"https://sportshd.us.to/",
 "app_title":"Sports Live",
 "home_url":"https://sportshd.us.to/tt",
