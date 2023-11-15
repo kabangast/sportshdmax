@@ -1,7 +1,7 @@
 {
   "splash_screen": {
-    "image_url": "https://i.ibb.co/8Yzs4SW/splash.png",
-    "duration_seconds": 3
+    "image_url": "https://api.sofascore.app/api/v1/event/11730466/share-image/16x9",
+    "duration_seconds": 5
   },
 "#home_url":"https://sportshd.us.to/",
 "app_title":"Sports Live",
