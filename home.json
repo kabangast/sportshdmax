@@ -2,11 +2,11 @@
   "home_url": "https://sportshd.us.to/",
   "payment_url": "https://sportshd.us.to/channels/malipo.php",
   "app_title": "Sports HD Max v3",
-  "skip_splash_screen": "false",
+  "skip_splash_screen": "true",
   "splash_screen": "https://www.appcreator24.com/srv/imgs/gen/2893203_splash.png?ts=1701876015",
   "splash_sec": "1",
   "share_text": "Download app nzuri ya Sports HD Max hapa https://sportshd.us.to/app/\n\nBest Sports App!",
-  "skip_update": "false",
+  "skip_update": "true",
   "update_version": "1.0.2",
   "update_url": "https://sportshd.us.to/app/update.apk"
 }
