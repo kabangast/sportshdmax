@@ -1,12 +1,556 @@
 {
-  "home_url": "https://sportshd.us.to/",
-  "payment_url": "https://sportshd.us.to/channels/malipo.php",
-  "app_title": "Sports HD Max v3",
-  "skip_splash_screen": "true",
-  "splash_screen": "https://www.appcreator24.com/srv/imgs/gen/2893203_splash.png?ts=1701876015",
-  "splash_sec": "1",
-  "share_text": "Download app nzuri ya Sports HD Max hapa https://sportshd.us.to/app/\n\nBest Sports App!",
-  "skip_update": "true",
-  "update_version": "1.0.2",
-  "update_url": "https://sportshd.us.to/app/update.apk"
+    "appTitle": "SPORTS HD",
+    "channelListScreenTitle": "Chagua channel",
+    "channelsList": [
+        {
+            "channelId": 1,
+            "isLive": true,
+            "channelName": "Tabora United vs Kagera Sugar",
+            "channelImage": "https:\/\/s3.eu-west-1.amazonaws.com\/com.azamtv2019\/AS%201%20Final%202-7f516dcb2326a74dc6ed880ca56de2c1.jpg",
+            "playlistUrl": "https:\/\/vsd151.okcdn.ru\/hls\/5696484149972.m3u8\/sig\/xjCiXeQMiZM\/expires\/1743254251771\/srcIp\/197.186.8.228\/urls\/185.226.53.69\/clientType\/0\/srcAg\/CHROME_ANDROID\/mid\/6855960764116\/5696484149972_high\/index.m3u8"
+        },
+        {
+            "channelId": 1,
+            "isAz": true,
+            "isLive": true,
+            "channelName": "Tabora United vs Kagera Sugar",
+            "channelImage": "https:\/\/s3.eu-west-1.amazonaws.com\/com.azamtv2019\/AS%201%20Final%202-7f516dcb2326a74dc6ed880ca56de2c1.jpg",
+            "playlistUrl": "https:\/\/1375207669.rsc.cdn77.org\/1375207669\/index.mpd",
+            "contentId": "6627581cdbf52f4b5ecea9f2",
+            "nvAuth": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ijc3NTA5MCJ9.eyJ0eXAiOiJDb250ZW50QXV0aFoiLCJ2ZXIiOiIxLjAiLCJ0ZW5hbnRJZCI6IkFaWTRTSjlCIiwiZGV2aWNlIjp7ImFjY291bnRJZCI6IjE1MDUwNTU2Iiwid2F0ZXJtYXJraW5nIjp0cnVlfSwiY29udGVudFJpZ2h0cyI6W3siY29udGVudElkIjoiMTM3NTIwNzY2OSIsInN0YXJ0IjoiMjAyNS0wMy0yOFQxMzowNTowOFoiLCJlbmQiOiIyMDI1LTA0LTI4VDEzOjA1OjA4WiIsInVzYWdlUnVsZXNQcm9maWxlSWQiOiJTRCJ9XSwiZXhwIjoxNzQzMTc3OTA4fQ.UaDywgYHYrYGHIeW8s1mkKKhsmOA5d8tvQ59_2k9j94"
+        },
+        {
+            "channelId": 1,
+            "isAz": true,
+            "isLive": true,
+            "channelName": "Sports 1",
+            "channelImage": "https:\/\/s3.eu-west-1.amazonaws.com\/com.azamtv2019\/AS%201%20Final%202-7f516dcb2326a74dc6ed880ca56de2c1.jpg",
+            "playlistUrl": "https:\/\/1375207669.rsc.cdn77.org\/1375207669\/index.mpd",
+            "contentId": "6627581cdbf52f4b5ecea9f2",
+            "nvAuth": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ijc3NTA5MCJ9.eyJ0eXAiOiJDb250ZW50QXV0aFoiLCJ2ZXIiOiIxLjAiLCJ0ZW5hbnRJZCI6IkFaWTRTSjlCIiwiZGV2aWNlIjp7ImFjY291bnRJZCI6IjE1MDUwNTU2Iiwid2F0ZXJtYXJraW5nIjp0cnVlfSwiY29udGVudFJpZ2h0cyI6W3siY29udGVudElkIjoiMTM3NTIwNzY2OSIsInN0YXJ0IjoiMjAyNS0wMy0yOFQxMzowNTowOFoiLCJlbmQiOiIyMDI1LTA0LTI4VDEzOjA1OjA4WiIsInVzYWdlUnVsZXNQcm9maWxlSWQiOiJTRCJ9XSwiZXhwIjoxNzQzMTc3OTA4fQ.UaDywgYHYrYGHIeW8s1mkKKhsmOA5d8tvQ59_2k9j94"
+        },
+        {
+            "channelId": 2,
+            "isAz": true,
+            "isLive": true,
+            "channelName": "Sports 2",
+            "channelImage": "https:\/\/s3.eu-west-1.amazonaws.com\/com.azamtv2019\/AS%202%20Final%202-63752ba496c02885c506ed415073aa63.jpg",
+            "playlistUrl": "https:\/\/1921800925.rsc.cdn77.org\/1921800925\/index.mpd",
+            "contentId": "663cdae71e0938881f3f6bd1",
+            "nvAuth": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ijc3NTA5MCJ9.eyJ0eXAiOiJDb250ZW50QXV0aFoiLCJ2ZXIiOiIxLjAiLCJ0ZW5hbnRJZCI6IkFaWTRTSjlCIiwiZGV2aWNlIjp7ImFjY291bnRJZCI6IjE1MDUwNTU2Iiwid2F0ZXJtYXJraW5nIjp0cnVlfSwiY29udGVudFJpZ2h0cyI6W3siY29udGVudElkIjoiMTkyMTgwMDkyNSIsInN0YXJ0IjoiMjAyNS0wMy0yOFQxMzowNTowOVoiLCJlbmQiOiIyMDI1LTA0LTI4VDEzOjA1OjA5WiIsInVzYWdlUnVsZXNQcm9maWxlSWQiOiJTRCJ9XSwiZXhwIjoxNzQzMTc3OTA5fQ.E47_3CWGOSh5MIHO64Bq8Trira-9jEhyRqoTVy4rO_M"
+        },
+        {
+            "channelId": 3,
+            "isAz": true,
+            "isLive": true,
+            "channelName": "Sports 3",
+            "channelImage": "https:\/\/s3.eu-west-1.amazonaws.com\/com.azamtv2019\/AS%203%20Final%202-c75623c4c8433ebcdfc0159c2b1ad944.jpg",
+            "playlistUrl": "https:\/\/1272419850.rsc.cdn77.org\/1272419850\/index.mpd",
+            "contentId": "663cdae71e0938881f3f6bd1",
+            "nvAuth": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ijc3NTA5MCJ9.eyJ0eXAiOiJDb250ZW50QXV0aFoiLCJ2ZXIiOiIxLjAiLCJ0ZW5hbnRJZCI6IkFaWTRTSjlCIiwiZGV2aWNlIjp7ImFjY291bnRJZCI6IjE1MDUwNTU2Iiwid2F0ZXJtYXJraW5nIjp0cnVlfSwiY29udGVudFJpZ2h0cyI6W3siY29udGVudElkIjoiMTI3MjQxOTg1MCIsInN0YXJ0IjoiMjAyNS0wMy0yOFQxMzowNToxMFoiLCJlbmQiOiIyMDI1LTA0LTI4VDEzOjA1OjEwWiIsInVzYWdlUnVsZXNQcm9maWxlSWQiOiJTRCJ9XSwiZXhwIjoxNzQzMTc3OTEwfQ.2PAUhhV1PTN2_4uO1uadeGDmlIQKDVnU4R93Qf1d_BE"
+        },
+        {
+            "channelId": 4,
+            "isAz": true,
+            "isLive": true,
+            "channelName": "Sports 4",
+            "channelImage": "https:\/\/sportshd.us.to\/data\/cdn\/?image=sports44",
+            "playlistUrl": "https:\/\/1449337437.rsc.cdn77.org\/1449337437\/index.mpd",
+            "contentId": "6627581cdbf52f4b5ecea9f2",
+            "nvAuth": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ijc3NTA5MCJ9.eyJ0eXAiOiJDb250ZW50QXV0aFoiLCJ2ZXIiOiIxLjAiLCJ0ZW5hbnRJZCI6IkFaWTRTSjlCIiwiZGV2aWNlIjp7ImFjY291bnRJZCI6IjE1MDUwNTU2Iiwid2F0ZXJtYXJraW5nIjp0cnVlfSwiY29udGVudFJpZ2h0cyI6W3siY29udGVudElkIjoiMTQ0OTMzNzQzNyIsInN0YXJ0IjoiMjAyNS0wMy0yOFQxMzowNToxMFoiLCJlbmQiOiIyMDI1LTA0LTI4VDEzOjA1OjEwWiIsInVzYWdlUnVsZXNQcm9maWxlSWQiOiJTRCJ9XSwiZXhwIjoxNzQzMTc3OTEwfQ.vJHby9S83v4E84Zy4Gj0yuGTyWSl94pIe0nMkhKP3J0"
+        },
+        {
+            "channelId": 5,
+            "isAz": true,
+            "isLive": true,
+            "channelName": "Azam 1",
+            "channelImage": "https:\/\/s3.eu-west-1.amazonaws.com\/com.azamtv2019\/Azam%20ONE%20Final-cdf34b8baa8ec1e5b2f26a54ef0bfa11.jpg",
+            "playlistUrl": "https:\/\/1647151410.rsc.cdn77.org\/1647151410\/index.mpd",
+            "contentId": "6627581cdbf52f4b5ecea9f2",
+            "nvAuth": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ijc3NTA5MCJ9.eyJ0eXAiOiJDb250ZW50QXV0aFoiLCJ2ZXIiOiIxLjAiLCJ0ZW5hbnRJZCI6IkFaWTRTSjlCIiwiZGV2aWNlIjp7ImFjY291bnRJZCI6IjE1MDUwNTU2Iiwid2F0ZXJtYXJraW5nIjp0cnVlfSwiY29udGVudFJpZ2h0cyI6W3siY29udGVudElkIjoiMTY0NzE1MTQxMCIsInN0YXJ0IjoiMjAyNS0wMy0yOFQxMzowNToxMVoiLCJlbmQiOiIyMDI1LTA0LTI4VDEzOjA1OjExWiIsInVzYWdlUnVsZXNQcm9maWxlSWQiOiJTRCJ9XSwiZXhwIjoxNzQzMTc3OTExfQ.WEj4sVnwYeBXznfGdsihdRn9oorLW9UL3zcAWkYmRx8"
+        },
+        {
+            "channelId": 6,
+            "isAz": true,
+            "isLive": true,
+            "channelName": "Azam 2",
+            "channelImage": "https:\/\/s3.eu-west-1.amazonaws.com\/com.azamtv2019\/Azam%20TWO%20Final-d9dbf8763e107226707b22cc82c52032.jpg",
+            "playlistUrl": "https:\/\/1030517708.rsc.cdn77.org\/1030517708\/index.mpd",
+            "contentId": "6627581cdbf52f4b5ecea9f2",
+            "nvAuth": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ijc3NTA5MCJ9.eyJ0eXAiOiJDb250ZW50QXV0aFoiLCJ2ZXIiOiIxLjAiLCJ0ZW5hbnRJZCI6IkFaWTRTSjlCIiwiZGV2aWNlIjp7ImFjY291bnRJZCI6IjE1MDUwNTU2Iiwid2F0ZXJtYXJraW5nIjp0cnVlfSwiY29udGVudFJpZ2h0cyI6W3siY29udGVudElkIjoiMTAzMDUxNzcwOCIsInN0YXJ0IjoiMjAyNS0wMy0yOFQxMzowNToxMVoiLCJlbmQiOiIyMDI1LTA0LTI4VDEzOjA1OjExWiIsInVzYWdlUnVsZXNQcm9maWxlSWQiOiJTRCJ9XSwiZXhwIjoxNzQzMTc3OTExfQ.XOCeVAdWdEqk2Ch8d3sbMCZ-PKwQscyvbLhXeUubJOc"
+        },
+        {
+            "channelId": 7,
+            "isAz": true,
+            "isLive": true,
+            "channelName": "Sinema",
+            "channelImage": "https:\/\/s3.eu-west-1.amazonaws.com\/com.azamtv2019\/Sinema%20Zetu%20NEW-00186e729490b197a895df58a670d18e.jpg",
+            "playlistUrl": "https:\/\/1385876236.rsc.cdn77.org\/1385876236\/index.mpd",
+            "contentId": "6627581cdbf52f4b5ecea9f2",
+            "nvAuth": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ijc3NTA5MCJ9.eyJ0eXAiOiJDb250ZW50QXV0aFoiLCJ2ZXIiOiIxLjAiLCJ0ZW5hbnRJZCI6IkFaWTRTSjlCIiwiZGV2aWNlIjp7ImFjY291bnRJZCI6IjE1MDUwNTU2Iiwid2F0ZXJtYXJraW5nIjp0cnVlfSwiY29udGVudFJpZ2h0cyI6W3siY29udGVudElkIjoiMTM4NTg3NjIzNiIsInN0YXJ0IjoiMjAyNS0wMy0yOFQxMzowNToxMloiLCJlbmQiOiIyMDI1LTA0LTI4VDEzOjA1OjEyWiIsInVzYWdlUnVsZXNQcm9maWxlSWQiOiJTRCJ9XSwiZXhwIjoxNzQzMTc3OTEyfQ.3qPREq_jGa8LAgfqx9AY4_od2vqy7oC1rgG3qHZM6do"
+        },
+        {
+            "channelId": 8,
+            "isAz": true,
+            "isLive": true,
+            "channelName": "UTV",
+            "channelImage": "https:\/\/s3.eu-west-1.amazonaws.com\/com.azamtv2019\/UTV-350x200-LOGOS-336f0cc293ac65ff3c4ddbb210625998.jpg",
+            "playlistUrl": "https:\/\/1730904702.rsc.cdn77.org\/1730904702\/index.mpd",
+            "contentId": "6627581cdbf52f4b5ecea9f2",
+            "nvAuth": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ijc3NTA5MCJ9.eyJ0eXAiOiJDb250ZW50QXV0aFoiLCJ2ZXIiOiIxLjAiLCJ0ZW5hbnRJZCI6IkFaWTRTSjlCIiwiZGV2aWNlIjp7ImFjY291bnRJZCI6IjE1MDUwNTU2Iiwid2F0ZXJtYXJraW5nIjp0cnVlfSwiY29udGVudFJpZ2h0cyI6W3siY29udGVudElkIjoiMTczMDkwNDcwMiIsInN0YXJ0IjoiMjAyNS0wMy0yOFQxMzowNToxMloiLCJlbmQiOiIyMDI1LTA0LTI4VDEzOjA1OjEyWiIsInVzYWdlUnVsZXNQcm9maWxlSWQiOiJTRCJ9XSwiZXhwIjoxNzQzMTc3OTEyfQ.27rS6Xv7u3lw7ytD39TWqcY1eJwz1j6Clktt1GwQpug"
+        },
+        {
+            "channelId": 9,
+            "isAz": true,
+            "isLive": true,
+            "channelName": "ZBC 2",
+            "channelImage": "https:\/\/s3.eu-west-1.amazonaws.com\/com.azamtv2019\/ZBC2-350x200-LOGOS-efd3cdf76b442f7f82b556eda11d7cce.jpg",
+            "playlistUrl": "https:\/\/1833615464.rsc.cdn77.org\/1833615464\/index.mpd",
+            "contentId": "6627581cdbf52f4b5ecea9f2",
+            "nvAuth": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ijc3NTA5MCJ9.eyJ0eXAiOiJDb250ZW50QXV0aFoiLCJ2ZXIiOiIxLjAiLCJ0ZW5hbnRJZCI6IkFaWTRTSjlCIiwiZGV2aWNlIjp7ImFjY291bnRJZCI6IjE1MDUwNTU2Iiwid2F0ZXJtYXJraW5nIjp0cnVlfSwiY29udGVudFJpZ2h0cyI6W3siY29udGVudElkIjoiMTgzMzYxNTQ2NCIsInN0YXJ0IjoiMjAyNS0wMy0yOFQxMzowNToxM1oiLCJlbmQiOiIyMDI1LTA0LTI4VDEzOjA1OjEzWiIsInVzYWdlUnVsZXNQcm9maWxlSWQiOiJTRCJ9XSwiZXhwIjoxNzQzMTc3OTEzfQ.6GK48CfoDBBCLA_wdTwvNH_Ph5GMXc-HEfdyncIi4ZA"
+        },
+        {
+            "channelId": 10,
+            "isAz": true,
+            "isLive": true,
+            "channelName": "Chaka Plus",
+            "channelImage": "https:\/\/sportshd.us.to\/data\/cdn\/?image=chekaplus",
+            "playlistUrl": "https:\/\/1352651988.rsc.cdn77.org\/1352651988\/index.mpd",
+            "contentId": "6627581cdbf52f4b5ecea9f2",
+            "nvAuth": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ijc3NTA5MCJ9.eyJ0eXAiOiJDb250ZW50QXV0aFoiLCJ2ZXIiOiIxLjAiLCJ0ZW5hbnRJZCI6IkFaWTRTSjlCIiwiZGV2aWNlIjp7ImFjY291bnRJZCI6IjE1MDUwNTU2Iiwid2F0ZXJtYXJraW5nIjp0cnVlfSwiY29udGVudFJpZ2h0cyI6W3siY29udGVudElkIjoiMTM1MjY1MTk4OCIsInN0YXJ0IjoiMjAyNS0wMy0yOFQxMzowNToxM1oiLCJlbmQiOiIyMDI1LTA0LTI4VDEzOjA1OjEzWiIsInVzYWdlUnVsZXNQcm9maWxlSWQiOiJTRCJ9XSwiZXhwIjoxNzQzMTc3OTEzfQ.4QuiepKJZJkhV9lvlPLVW-M7nZWC30ybb_41DYLOdbw"
+        },
+        {
+            "channelId": 11,
+            "isAz": true,
+            "isLive": true,
+            "channelName": "KIX",
+            "channelImage": "https:\/\/s3.eu-west-1.amazonaws.com\/com.azamtv2019\/KIX-ac51f0df697610380fc11454a0d38f60.jpg",
+            "playlistUrl": "https:\/\/1145307264.rsc.cdn77.org\/1145307264\/index.mpd",
+            "contentId": "6627581cdbf52f4b5ecea9f2",
+            "nvAuth": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ijc3NTA5MCJ9.eyJ0eXAiOiJDb250ZW50QXV0aFoiLCJ2ZXIiOiIxLjAiLCJ0ZW5hbnRJZCI6IkFaWTRTSjlCIiwiZGV2aWNlIjp7ImFjY291bnRJZCI6IjE1MDUwNTU2Iiwid2F0ZXJtYXJraW5nIjp0cnVlfSwiY29udGVudFJpZ2h0cyI6W3siY29udGVudElkIjoiMTE0NTMwNzI2NCIsInN0YXJ0IjoiMjAyNS0wMy0yOFQxMzowNToxNFoiLCJlbmQiOiIyMDI1LTA0LTI4VDEzOjA1OjE0WiIsInVzYWdlUnVsZXNQcm9maWxlSWQiOiJTRCJ9XSwiZXhwIjoxNzQzMTc3OTE0fQ.MCPYVZWpDnpTWXv98jFDLRyqz1sbPa8pADAfBdRyAgc"
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "SuperSportPremierLeague[SouthAfrica]",
+            "playlistName": "414",
+            "channelName": "SS Premier League",
+            "channelImage": "https:\/\/static.quickgrow.net\/public\/images\/tv-channels\/x5ja5w1659624783.png",
+            "playlistUrl": "https:\/\/nix1-dc4new.koskoros.ru\/nix1-dc4\/eplayerSuperSportPL\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "SuperSportLaLiga[SouthAfrica]",
+            "playlistName": "415",
+            "channelName": "SS La Liga",
+            "channelImage": "https:\/\/static.quickgrow.net\/public\/images\/tv-channels\/a8a882fb16572f8d4c1980b75b27201d.jpg",
+            "playlistUrl": "https:\/\/wiki.koskoros.ru\/wiki\/eplayerSuperSportLaLiga\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "SuperSportFootball[SouthAfrica]",
+            "playlistName": "56",
+            "channelName": "SS Football",
+            "channelImage": "https:\/\/static.quickgrow.net\/public\/images\/tv-channels\/7lxofw1656964140.png",
+            "playlistUrl": "https:\/\/top2.koskoros.ru\/top2\/eplayerSuperSportFootball\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "SuperSportVariety1[SouthAfrica]",
+            "playlistName": "416",
+            "channelName": "SS V 1",
+            "channelImage": "https:\/\/static.quickgrow.net\/public\/images\/tv-channels\/0lwdq31638048788.png",
+            "playlistUrl": "https:\/\/nix1-dc4new.koskoros.ru\/nix1-dc4\/eplayerSuperSportVariety1\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "SuperSportVariety2[SouthAfrica]",
+            "playlistName": "417",
+            "channelName": "SS V 2",
+            "channelImage": "https:\/\/static.quickgrow.net\/public\/images\/tv-channels\/9vnt801638048828.png",
+            "playlistUrl": "https:\/\/nix1-dc4new.koskoros.ru\/nix1-dc4\/eplayerSuperSportVariety2\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "SuperSportVariety3[SouthAfrica]",
+            "playlistName": "418",
+            "channelName": "SS V 3",
+            "channelImage": "https:\/\/static.quickgrow.net\/public\/images\/tv-channels\/mh03f41638048848.png",
+            "playlistUrl": "https:\/\/nix1-dc4new.koskoros.ru\/nix1-dc4\/eplayerSuperSportVariety3\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "SuperSportVariety4[SouthAfrica]",
+            "playlistName": "419",
+            "channelName": "SS V 4",
+            "channelImage": "https:\/\/static.quickgrow.net\/public\/images\/tv-channels\/jz5jpt1638048871.png",
+            "playlistUrl": "https:\/\/nix1-dc4new.koskoros.ru\/nix1-dc4\/eplayerSuperSportVariety4\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "WweNetwork[USA]",
+            "playlistName": "376",
+            "channelName": "WWE",
+            "channelImage": "https:\/\/static.quickgrow.net\/public\/images\/tv-channels\/c-l33-tbx4-bvcvs8s-p-zfvwzd-nk-r-b-vncgag-w-jy-x-k-ol-t.png",
+            "playlistUrl": "https:\/\/hzt.koskoros.ru\/hzt\/ustvwwe\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "BeinSportsMena1[UK]",
+            "playlistName": "61",
+            "channelName": "BS 1 E",
+            "channelImage": "https:\/\/assets.bein.com\/mena\/sites\/3\/2015\/06\/beIN_SPORTS1_ENGLISH_Digital_Mono.png",
+            "playlistUrl": "https:\/\/nix1-dc4new.koskoros.ru\/nix1-dc4\/beinsports1EN\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "BeINSport1[France]",
+            "playlistName": "91",
+            "channelName": "BS 1",
+            "channelImage": "https:\/\/assets.bein.com\/mena\/sites\/3\/2015\/06\/beIN_SPORTS1_DIGITAL_Mono.png",
+            "playlistUrl": "https:\/\/xyzddddnewnewnew.mizhls.ru\/lb\/premium91\/index.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "BeINSport2[France]",
+            "playlistName": "92",
+            "channelName": "BS 2",
+            "channelImage": "https:\/\/assets.bein.com\/mena\/sites\/3\/2015\/06\/beIN_SPORTS2_DIGITAL_Mono.png",
+            "playlistUrl": "https:\/\/wiki.koskoros.ru\/wiki\/beinsport2fr\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "BeINSport3[France]",
+            "playlistName": "93",
+            "channelName": "BS 3",
+            "channelImage": "https:\/\/assets.bein.com\/mena\/sites\/3\/2015\/06\/beIN_SPORTS3_DIGITAL_Mono.png",
+            "playlistUrl": "https:\/\/wiki.koskoros.ru\/wiki\/beinsport3fr\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "BeINSport4[France]",
+            "playlistName": "94",
+            "channelName": "BS 4",
+            "channelImage": "https:\/\/assets.bein.com\/mena\/sites\/3\/2015\/06\/beIN_SPORTS4_DIGITAL_Mono.png",
+            "playlistUrl": "https:\/\/xyzddddnewnewnew.mizhls.ru\/lb\/premium94\/index.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "channelName": "MBC 1",
+            "channelImage": "https:\/\/sportshd.us.to\/data\/cdn\/?image=MBC%201",
+            "playlistUrl": "https:\/\/mbc1-enc.edgenextcdn.net\/out\/v1\/0965e4d7deae49179172426cbfb3bc5e\/index.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/shahid.mbc.net\/",
+                "Origin": "https:\/\/shahid.mbc.net",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "channelName": "MBC 2",
+            "channelImage": "https:\/\/sportshd.us.to\/data\/cdn\/?image=MBC%202",
+            "playlistUrl": "https:\/\/shls-mbc2-prod-dub.shahid.net\/out\/v1\/b4befe19798745fe986f5a9bfba62126\/index.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/shahid.mbc.net\/",
+                "Origin": "https:\/\/shahid.mbc.net",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "channelName": "MBC 3",
+            "channelImage": "https:\/\/sportshd.us.to\/data\/cdn\/?image=MBC%203",
+            "playlistUrl": "https:\/\/shls-mbc3-eur-prod-dub.shahid.net\/out\/v1\/fce09dd6a967431a871efb3b8dec9f82\/index.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/shahid.mbc.net\/",
+                "Origin": "https:\/\/shahid.mbc.net",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "channelName": "MBC 4",
+            "channelImage": "https:\/\/sportshd.us.to\/data\/cdn\/?image=MBC%204",
+            "playlistUrl": "https:\/\/shls-masr-ak.akamaized.net\/out\/v1\/c08681f81775496ab4afa2bac7ae7638\/index.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/shahid.mbc.net\/",
+                "Origin": "https:\/\/shahid.mbc.net",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "channelName": "MBC 5",
+            "channelImage": "https:\/\/sportshd.us.to\/data\/cdn\/?image=MBC%205",
+            "playlistUrl": "https:\/\/mbc5-prod-dub-ak.akamaized.net\/out\/v1\/2720564b6a4641658fdfb6884b160da2\/index.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/shahid.mbc.net\/",
+                "Origin": "https:\/\/shahid.mbc.net",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "channelName": "Arryadia",
+            "channelImage": "https:\/\/sportshd.us.to\/data\/cdn\/?image=Arryadia",
+            "playlistUrl": "https:\/\/cdnamd-hls-globecast.akamaized.net\/live\/ramdisk\/arriadia\/hls_snrt\/index.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/snrtlive.ma\/",
+                "Origin": "https:\/\/snrtlive.ma",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "channelName": "MBC Bollywood",
+            "channelImage": "https:\/\/sportshd.us.to\/data\/cdn\/?image=MBC%20Bollywood",
+            "playlistUrl": "https:\/\/shls-mbcbollywood-prod-dub.shahid.net\/out\/v1\/a79c9d7ef2a64a54a64d5c4567b3462a\/index.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/shahid.mbc.net\/",
+                "Origin": "https:\/\/shahid.mbc.net",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "SkySportsPremierLeague[UK]",
+            "playlistName": "130",
+            "channelName": "Sky Sports Premier League",
+            "channelImage": "https:\/\/ia800808.us.archive.org\/17\/items\/SkySportsPremierLeague_201708\/sky%20sports%20premier%20league.png",
+            "playlistUrl": "https:\/\/top2.koskoros.ru\/top2\/eplayerSKYPL\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "SkySportsFootball[UK]",
+            "playlistName": "35",
+            "channelName": "Sky Sports Football",
+            "channelImage": "https:\/\/ia600609.us.archive.org\/8\/items\/SkySportsFootball_201708\/sky%20sports%20football.png",
+            "playlistUrl": "https:\/\/top2.koskoros.ru\/top2\/eplayerskyfoot\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "SkySportsMainEvent[UK]",
+            "playlistName": "38",
+            "channelName": "Sky Sports Main Event",
+            "channelImage": "https:\/\/ia600609.us.archive.org\/8\/items\/SkySportsFootball_201708\/sky%20sports%20football.png",
+            "playlistUrl": "https:\/\/top2.koskoros.ru\/top2\/eplayerskymain2\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "ESPN[USA]",
+            "playlistName": "44",
+            "channelName": "ESPN 1",
+            "channelImage": "https:\/\/espnpressroom.com\/us\/files\/2022\/09\/ESPN-App-icon.png",
+            "playlistUrl": "https:\/\/hzt.koskoros.ru\/hzt\/eplayerespn_usa\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "ESPN2[USA]",
+            "playlistName": "45",
+            "channelName": "ESPN 2",
+            "channelImage": "https:\/\/espnpressroom.com\/us\/files\/2022\/09\/ESPN-App-icon.png",
+            "playlistUrl": "https:\/\/hzt.koskoros.ru\/hzt\/eplayerespn2_usa\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "isgg": true,
+            "aesKey": "&token=xAXD9RCV",
+            "channelName": "TNT 1 Test",
+            "channelImage": "https:\/\/www.sportcal.com\/wp-content\/uploads\/sites\/32\/2023\/07\/TNT-Sport-Logo.jpg",
+            "playlistUrl": "https:\/\/liveua.score806.cc\/uk_ssepl\/tracks-v1a1\/mono.m3u8:",
+            "playlistHeaders": {
+                "Referer": "https:\/\/play.ezyproxy.xyz\/",
+                "Origin": "https:\/\/play.ezyproxy.xyz",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            },
+            "matchtime": "2025-03-13 08:30 PM"
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "TNTSports1[UK]",
+            "playlistName": 414,
+            "channelName": "TNT Sports 1",
+            "channelImage": "https:\/\/www.sportcal.com\/wp-content\/uploads\/sites\/32\/2023\/07\/TNT-Sport-Logo.jpg",
+            "playlistUrl": "https:\/\/azo.koskoros.ru\/azo\/eplayerdigitvbt1\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            },
+            "matchtime": "2025-03-13 08:30 PM"
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "TNTSports2[UK]",
+            "playlistName": "32",
+            "channelName": "TNT Sports 2",
+            "channelImage": "https:\/\/www.sportcal.com\/wp-content\/uploads\/sites\/32\/2023\/07\/TNT-Sport-Logo.jpg",
+            "playlistUrl": "https:\/\/azo.koskoros.ru\/azo\/eplayerdigitvbt2\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "TNTSports3[UK]",
+            "playlistName": "33",
+            "channelName": "TNT Sports 3",
+            "channelImage": "https:\/\/www.sportcal.com\/wp-content\/uploads\/sites\/32\/2023\/07\/TNT-Sport-Logo.jpg",
+            "playlistUrl": "https:\/\/azo.koskoros.ru\/azo\/eplayerdigitvbt3\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        },
+        {
+            "isLive": true,
+            "isIPTV": true,
+            "channelKey": "TNTSports4[UK]",
+            "playlistName": 414,
+            "channelName": "TNT Sports 4",
+            "channelImage": "https:\/\/www.sportcal.com\/wp-content\/uploads\/sites\/32\/2023\/07\/TNT-Sport-Logo.jpg",
+            "playlistUrl": "https:\/\/azo.koskoros.ru\/azo\/eplayerdigitvbt4\/mono.m3u8",
+            "playlistHeaders": {
+                "Referer": "https:\/\/topembed.pw\/",
+                "Origin": "https:\/\/topembed.pw",
+                "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/119.0.0.0 Safari\/537.36"
+            }
+        }
+    ],
+    "azConfig": {
+        "loginToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjExOGFlMGVkMWMwMTY2YjIyZTYxMmMiLCJmaXJzdE5hbWUiOiIwNjg1MTAwODMzIiwibGFzdE5hbWUiOiIiLCJtb2JpbGVOdW1iZXIiOiIrMjU1Njg1MTAwODMzIiwiY291bnRyeUNvZGUiOiJUWiIsImJpcnRoRGF0ZSI6Ii0tIiwiZGV2aWNlSWQiOiI0YmNlMjdhOWJkMjM4ZDQzIiwiYXV0aFByb3ZpZGVyIjpudWxsLCJpc1NvY2lhbEF1dGgiOmZhbHNlLCJpZCI6IjYyMTE4YWUwZWQxYzAxNjZiMjJlNjEyYiIsIndhbGxldCI6IjYyMTE4YWUwZWQxYzAxNjZiMjJlNjEyZCIsImlhdCI6MTc0MzA0MjkwMSwiZXhwIjoxNzQ4MjI2OTAxLCJpc3MiOiJtb2JpbGVfbG9jYWxfYXV0aCJ9.bEcGzEmOtrbwxJQ12yZc3TPP7Lb4c-w57ZsJ7jWkBvo",
+        "azPlaylistHeaders": {
+            "Referer": "app.azamtvmax.com",
+            "User-Agent": "ReactNativeVideo\/4.6 (Linux;Android 11) ExoPlayerLib\/2.13.3",
+            "Connection": "Keep-Alive"
+        },
+        "azlicenseUrl": "https:\/\/azy4sj9b.anycast.nagra.com\/AZY4SJ9B\/wvls\/contentlicenseservice\/v1\/licenses",
+        "azCacheDuration": 86400,
+        "cache_token": true,
+        "azlicenseHeaders": {
+            "Nv-Tenant-Id": "AZY4SJ9B",
+            "Nv-Authorizations": "",
+            "Connection": "Keep-Alive",
+            "Accept-Encoding": "gzip",
+            "Accept": "application\/octet-stream",
+            "Content-Type": "application\/octet-stream",
+            "Referer": "app.azamtvmax.com",
+            "Origin": "app.azamtvmax.com",
+            "User-Agent": "ReactNativeVideo\/4.6 (Linux;Android 11) ExoPlayerLib\/2.13.3"
+        }
+    }
 }
